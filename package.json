@@ -1,5 +1,5 @@
 {
-	"name": "oh-my-context",
+	"name": "hold-my-context",
 	"version": "1.0.0",
 	"description": "write less react context boilerplate",
 	"main": "dist/index.js",
