@@ -38,10 +38,16 @@
 
 .card {
 	padding: 2em;
-	display: flex;
+	/* display: flex; */
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
 	gap: 16px;
 	align-items: center;
 	justify-content: center;
+}
+
+.card>:is(p, h2) {
+	grid-column: span 3;
 }
 
 .read-the-docs {
